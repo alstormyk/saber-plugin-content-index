@@ -1,0 +1,6 @@
+plugins:
+  - resolve: ../
+    options:
+      IGNORE_TAGS: nav,iframe,br,svg
+      HTML_FOLDER: './public'
+      EXCLUDE_FILES: '404.html'

@@ -1,0 +1,19 @@
+{
+  "name": "saber-plugin-content-index",
+  "version": "0.0.1",
+  "description": "Generate a json file for search indexing",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "generate:example": "saber generate example"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "peerDependencies": {
+    "saber": "^0.6.7"
+  }
+}
